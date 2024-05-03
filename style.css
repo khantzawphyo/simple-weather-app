@@ -223,6 +223,30 @@ form button:active {
 }
 
 /* ================================================= */
+/* Scrollbar CSS */
+/* ================================================= */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--primary);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    border-radius: 7px;
+    border: 3px solid var(--primary);
+}
+
+/* ================================================= */
 /* 560px+ */
 /* ================================================= */
 @media screen and (min-width: 560px) {
