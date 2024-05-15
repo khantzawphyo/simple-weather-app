@@ -76,7 +76,7 @@ form.addEventListener('submit', e => {
             const { main, name, sys, weather } = data;
 
             // Define the icon location
-            const icon = `img/weather/${weather[0]['icon']}.svg`;
+            const icon = `./img/weather/${weather[0]['icon']}.svg`;
 
             // Create the list item for the new city
             const li = document.createElement('li');
