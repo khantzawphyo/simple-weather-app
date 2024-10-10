@@ -5,7 +5,7 @@ const msg = document.querySelector(".form-msg");
 const list = document.querySelector(".cities");
 
 // API key
-const apiKey = '279d05f9942847cb32adfcecd6979013';
+const apiKey = '7e68c23be7d0a5400095ddf908682b2a';
 
 form.addEventListener('submit', e => {
     // Prevent default form submission
